@@ -54,7 +54,7 @@ a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    /* MOVED TO HTML: background-image: url("../images/digital-marketing-meeting.jpg"); */
     background-size: cover;
     background-position: center;
 }
@@ -67,6 +67,7 @@ a {
     margin-left: 20px;
 }
 
+/* Consolidated separate class tags under ".content-box" */
 .content-box {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,6 +113,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Consolidated separate class tags under ".benefit-type" */
 .benefit-type {
     margin-bottom: 32px;
     color: #ffffff;
@@ -128,7 +130,7 @@ p {
     max-width: 150px;
 }
 
-/* FOOTER */
+/* footer - Changed from class tag ".footer" to semantic "footer" */
 
 footer {
     padding: 30px;
