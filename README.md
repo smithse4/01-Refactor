@@ -1,12 +1,12 @@
 # 01-Refactor
 
-Refactoring practice for Horiseon Social Solution Services webpage. 
+Refactoring Horiseon Social Solution Services webpage. 
 
-## Changes needed
+## Changes
 * Make webpage accessible
 * Correct any broken links
-* Clean up and consolidate code
-
+* Implement Semantic HTML
+* Consolidate code
 ## Actions taken
 * Added title to webpage: Horiseon Social Solution Services.
 * Adjusted spacing for clarity throughout HTML file.
@@ -20,3 +20,11 @@ Refactoring practice for Horiseon Social Solution Services webpage.
 * Moved Benefit right aside CSS code to after div content boxes for continuity clarity and to align with HTML code.
 * Consolidated content box CSS code by changing class attribute to "content*box".
 * Consolidated benefit right aside CSS code by changing individual class attribute to "benefit*type" class.
+
+## Screenshot of Deployed Site
+![Screenshot](./assets/images/refactor-screenshot.png)
+
+## Links
+[Repository](https://github.com/smithse4/01-Refactor)
+
+[Deployed](https://smithse4.github.io/01-Refactor/)
