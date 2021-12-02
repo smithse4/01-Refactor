@@ -8,6 +8,11 @@ body {
     background-color: #d9dcd6;
 }
 
+
+p {
+    font-size: 16px;
+}
+
 /* HEADER SECTION */
 
 header {
@@ -22,7 +27,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 span {
     color: #d9dcd6;
 }
 
@@ -50,25 +55,25 @@ a {
 
 /* HERO IMAGE */
 
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    /* MOVED TO HTML: background-image: url("../images/digital-marketing-meeting.jpg"); */
+    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
 /* CONTENT BOXES */
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 /* Consolidated separate class tags under ".content-box" */
-.content-box {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -77,11 +82,11 @@ a {
     color: #ffffff;
 }
 
-.content-box img {
+main section img {
     max-height: 200px;
 }
 
-.content-box h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -96,13 +101,10 @@ a {
     margin-left: 25px;
 }
 
-p {
-    font-size: 16px;
-}
 
 /* BENEFITS RIGHT ASIDE */
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -114,17 +116,17 @@ p {
 }
 
 /* Consolidated separate class tags under ".benefit-type" */
-.benefit-type {
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-type h2 {
+aside section h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-type img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -139,6 +141,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
