@@ -8,6 +8,10 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
 p {
     font-size: 16px;
@@ -31,7 +35,7 @@ header h1 span {
     color: #d9dcd6;
 }
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,18 +43,13 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
 }
 
 /* HERO IMAGE */
@@ -86,11 +85,6 @@ main section img {
     max-height: 200px;
 }
 
-main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -99,6 +93,11 @@ main section h2 {
 .float-right {
     float: right;
     margin-left: 25px;
+}
+
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 
